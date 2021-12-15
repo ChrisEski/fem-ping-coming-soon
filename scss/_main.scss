@@ -17,9 +17,14 @@
   }
 
   &__form {
-    // border: 1px solid red;
     &-input-group {
-      // border: 1px solid green;
+      &.error .main__form-input {
+        border: 1px solid $clr--secondary-lightRed;
+      }
+
+      &.error .main__form-error {
+        display: block;
+      }
     }
 
     &-input {
@@ -59,17 +64,19 @@
       box-shadow: 0px 6px 10px 5px $clr--primary-blueOp;
       margin-bottom: 75px;
 
-      &:hover {
+      &:hover,
+      &:active {
         opacity: 0.9;
       }
     }
   }
 
   &__illustration {
-    border: 1px solid red;
-    width: 345px img {
-      border: 1px solid green;
-      width: 100%;
-    }
+    // Make img responsive and restrict its size to a maximum width
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    padding-inline: 19px;
+    margin-bottom: 125px;
   }
 }

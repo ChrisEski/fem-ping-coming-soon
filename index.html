@@ -35,14 +35,16 @@
   </head>
   <body>
     <div class="container">
-      <header class="header">
+      <header class="header padding-inline">
         <img src="./images/logo.svg" alt="PING logo" class="header__logo" />
       </header>
 
       <main class="main">
-        <h1 class="main__title">We are launching <span>soon!</span></h1>
-        <p class="main__subtitle">Subscribe and get notified</p>
-        <form action="#" method="GET" class="main__form">
+        <h1 class="main__title padding-inline">
+          We are launching <span>soon!</span>
+        </h1>
+        <p class="main__subtitle padding-inline">Subscribe and get notified</p>
+        <form action="#" method="GET" class="main__form padding-inline">
           <div class="main__form-input-group">
             <input
               type="text"
@@ -56,27 +58,25 @@
 
           <button type="submit" class="main__form-btn">Notify Me</button>
         </form>
-        <div class="main__illustration">
-          <img src="./images/illustration-dashboard.png" aria-hidden="true" />
-        </div>
+        <img
+          src="./images/illustration-dashboard.png"
+          class="main__illustration"
+          aria-hidden="true"
+        />
       </main>
 
-      <footer class="footer">
+      <footer class="footer padding-inline">
         <div class="footer__social">
-          <div class="footer__social--facebook">
-            <i class="fab fa-facebook-f"></i>
-          </div>
-          <div class="footer__social--twitter">
-            <i class="fab fa-twitter"></i>
-          </div>
-          <div class="footer__social--instagram">
-            <i class="fab fa-instagram"></i>
-          </div>
+          <i class="fab fa-facebook-f"></i>
+
+          <i class="fab fa-twitter"></i>
+
+          <i class="fab fa-instagram"></i>
         </div>
         <p class="footer__copyright">
           &copy; Copyright Ping. All rights reserved.
         </p>
-        <p class="attribution">
+        <p class="footer__attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
