@@ -1,0 +1,75 @@
+.main {
+  &__title {
+    font-size: $fs--main;
+    font-weight: $fw--light;
+    color: $clr--neutral-gray;
+    margin-bottom: 25px;
+
+    span {
+      font-weight: $fw--bold;
+      color: $clr--neutral-darkBlue;
+    }
+  }
+
+  &__subtitle {
+    font-size: 11px;
+    margin-bottom: 35px;
+  }
+
+  &__form {
+    // border: 1px solid red;
+    &-input-group {
+      // border: 1px solid green;
+    }
+
+    &-input {
+      font-family: inherit;
+      width: 100%;
+      padding: 15px 33px;
+      border-radius: 99px;
+      background-color: transparent;
+      border: 1px solid $clr--secondary-paleBlue;
+      margin-bottom: 8px;
+
+      &::placeholder {
+        color: $clr--secondary-paleBlue;
+      }
+    }
+
+    &-error {
+      display: none;
+      font-size: 11px;
+      font-style: italic;
+      color: $clr--secondary-lightRed;
+      margin-bottom: 25px;
+    }
+
+    &-btn {
+      color: $clr--white;
+      font-weight: $fw--light;
+      border: none;
+      background: $clr--primary-blue;
+      width: 100%;
+      padding-block: 15px;
+      border-radius: 99px;
+      cursor: pointer;
+      letter-spacing: 0.5px;
+      font-family: inherit;
+      font-weight: $fw--semiBold;
+      box-shadow: 0px 6px 10px 5px $clr--primary-blueOp;
+      margin-bottom: 75px;
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  &__illustration {
+    border: 1px solid red;
+    width: 345px img {
+      border: 1px solid green;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  padding: 90px 37px 37px;
+}
+
+.header {
+  margin-bottom: 45px;
+}
+
+.header__logo {
+  display: block;
+  margin: auto;
+  width: 58px;
+}
+
+.main__title {
+  font-size: 20px;
+  font-weight: 300;
+  color: #969696;
+  margin-bottom: 25px;
+}
+
+.main__title span {
+  font-weight: 700;
+  color: #151f29;
+}
+
+.main__subtitle {
+  font-size: 11px;
+  margin-bottom: 35px;
+}
+
+.main__form-input {
+  font-family: inherit;
+  width: 100%;
+  padding: 15px 33px;
+  border-radius: 99px;
+  background-color: transparent;
+  border: 1px solid #c2d3ff;
+  margin-bottom: 8px;
+}
+
+.main__form-input::-webkit-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main__form-input:-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main__form-input::-ms-input-placeholder {
+  color: #c2d3ff;
+}
+
+.main__form-input::placeholder {
+  color: #c2d3ff;
+}
+
+.main__form-error {
+  display: none;
+  font-size: 11px;
+  font-style: italic;
+  color: #ff5263;
+  margin-bottom: 25px;
+}
+
+.main__form-btn {
+  color: white;
+  font-weight: 300;
+  border: none;
+  background: #4f7df3;
+  width: 100%;
+  padding-block: 15px;
+  border-radius: 99px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-family: inherit;
+  font-weight: 600;
+  -webkit-box-shadow: 0px 6px 10px 5px rgba(79, 125, 243, 0.2);
+          box-shadow: 0px 6px 10px 5px rgba(79, 125, 243, 0.2);
+  margin-bottom: 75px;
+}
+
+.main__form-btn:hover {
+  opacity: 0.9;
+}
+
+.main__illustration {
+  border: 1px solid red;
+  width: 345px img;
+  width-border: 1px solid green;
+  width-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

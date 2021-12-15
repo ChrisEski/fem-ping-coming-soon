@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <img src="./images/logo.svg" alt="PING logo" class="header__logo" />
+      </header>
+
+      <main class="main">
+        <h1 class="main__title">We are launching <span>soon!</span></h1>
+        <p class="main__subtitle">Subscribe and get notified</p>
+        <form action="#" method="GET" class="main__form">
+          <div class="main__form-input-group">
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="main__form-input"
+              placeholder="Your email address..."
+            />
+            <p class="main__form-error">Please provide a valid email address</p>
+          </div>
+
+          <button type="submit" class="main__form-btn">Notify Me</button>
+        </form>
+        <div class="main__illustration">
+          <img src="./images/illustration-dashboard.png" aria-hidden="true" />
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__social">
+          <div class="footer__social--facebook">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="footer__social--twitter">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="footer__social--instagram">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+        <p class="footer__copyright">
+          &copy; Copyright Ping. All rights reserved.
+        </p>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#" target="_blank">ChrisEski</a>.
+        </p>
+      </footer>
+    </div>
+
+    <script src="./dist/script.js"></script>
+  </body>
+</html>
